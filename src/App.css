@@ -1,0 +1,40 @@
+.product-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.product-card{
+    border: 1px solid;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+
+}
+.product-image{
+    width: 250px;
+    height: 230px;
+
+}
+.product-title{
+    color: brown;
+
+}
+.product-price{
+    font-style: italic;
+
+}
+.product-description{
+    font-size: 18px;
+
+}
+.product-button{
+    width: fit-content;
+    margin: auto;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+
+}
